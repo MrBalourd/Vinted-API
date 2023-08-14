@@ -5,19 +5,19 @@ Welcome to the Vinted API! This API allows you to interact with Vinted's data to
 
 ## Planned Functionalities ⚙️
 
-In addition to the current endpoints, I'm planning to add the following functionalities to the Vinted API:
+In addition to the current endpoints, I'm planning to add the following exciting functionalities to the Vinted API:
 
-- **Authentication Actions**: Integrate authentication mechanisms to allow users to log in, ensuring secure access to personalized features.
+- **Authentication Actions** 🔐: Integrate authentication mechanisms to allow users to log in, ensuring secure access to personalized features.
 
-- **Write Messages**: Implement the ability for users to send messages to each other, enhancing communication within the platform.
+- **Write Messages** ✉️: Implement the ability for users to send messages to each other, enhancing communication within the platform.
 
-- **Add an Item**: Enable users to list their items for sale by adding new items to the platform.
+- **Add an Item** 🛍️: Enable users to list their items for sale by adding new items to the platform.
 
-- **Like Item**: Implement a feature that allows users to "like" or save items they are interested in.
+- **Like Item** ❤️: Implement a feature that allows users to "like" or save items they are interested in.
 
-- **Modify Rapidly an Item**: Provide a quick and easy way for users to make updates to their listed items.
+- **Modify Rapidly an Item** 🚀: Provide a quick and easy way for users to make updates to their listed items.
 
-- **Push Notifications**: Set up push notifications to alert users when a new article is posted that matches their alerted research criteria.
+- **Push Notifications** 📬: Set up push notifications to alert users when a new article is posted that matches their alerted research criteria.
 
 These upcoming features will enhance the overall user experience and make the Vinted platform even more dynamic and engaging.
 
