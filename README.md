@@ -3,6 +3,24 @@
 
 Welcome to the Vinted API! This API allows you to interact with Vinted's data to search for items, retrieve member information, and more. 💼
 
+## Planned Functionalities ⚙️
+
+In addition to the current endpoints, I'm planning to add the following functionalities to the Vinted API:
+
+- **Authentication Actions**: Integrate authentication mechanisms to allow users to log in, ensuring secure access to personalized features.
+
+- **Write Messages**: Implement the ability for users to send messages to each other, enhancing communication within the platform.
+
+- **Add an Item**: Enable users to list their items for sale by adding new items to the platform.
+
+- **Like Item**: Implement a feature that allows users to "like" or save items they are interested in.
+
+- **Modify Rapidly an Item**: Provide a quick and easy way for users to make updates to their listed items.
+
+- **Push Notifications**: Set up push notifications to alert users when a new article is posted that matches their alerted research criteria.
+
+These upcoming features will enhance the overall user experience and make the Vinted platform even more dynamic and engaging.
+
 ## Table of Contents 📚
 
 - [Introduction](#introduction)
@@ -24,11 +42,27 @@ Endpoint: `POST /api/items`
 
 Search for items based on specific criteria like text, currency, and order.
 
+**Example Request:**
+```bash
+curl -X POST https://vinted-api.com/api/items -H "Content-Type: application/json" -d '{
+  "text": "summer dress",
+  "currency": "USD",
+  "order": "price"
+}'
+```
+
 ### Get Item Info 📦
 
 Endpoint: `POST /api/item`
 
 Retrieve detailed information about a specific item using its identifier.
+
+**Example Request:**
+```bash
+curl -X POST https://vinted-api.com/api/item -H "Content-Type: application/json" -d '{
+  "item": "item_id_here"
+}'
+```
 
 ### Search Members 👥
 
@@ -36,11 +70,21 @@ Endpoint: `GET /api/members/search`
 
 Search for members using a query string to find member profiles.
 
+**Example Request:**
+```bash
+curl -X GET "https://vinted-api.com/api/members/search?query=john_doe"
+```
+
 ### Get Member Items 📂
 
 Endpoint: `GET /api/member/:id/items`
 
 Retrieve items listed by a specific member using their ID.
+
+**Example Request:**
+```bash
+curl -X GET "https://vinted-api.com/api/member/member_id_here/items?page=1"
+```
 
 ### Get Member Info 👤
 
@@ -48,11 +92,21 @@ Endpoint: `GET /api/member/:memberId`
 
 Retrieve detailed information about a specific member using their ID.
 
+**Example Request:**
+```bash
+curl -X GET "https://vinted-api.com/api/member/member_id_here"
+```
+
 ### Get Member Rates ⭐
 
 Endpoint: `GET /api/member/:memberId/rate`
 
 Retrieve ratings and feedback for a specific member using their ID.
+
+**Example Request:**
+```bash
+curl -X GET "https://vinted-api.com/api/member/member_id_here/rate"
+```
 
 ### Test Endpoint 🧪
 
